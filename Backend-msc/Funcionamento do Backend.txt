@@ -1,0 +1,24 @@
+Funcionamento do Backend com Node Express
+
+Server.ts -> Onde é inicializado o Servidor e indica os endereços que o cliente possa acessar.
+
+Ex: app.use("/users", userRoutes) -> userRoutes foi importado
+
+Router.ts -> Arquivo onde são definidas as rotas que serão usadas e o como serão usadas.
+
+Ex1: router.get("/", userController.list);
+Ex2: router.get("/:id", userController.find);
+
+Obs: Quando queremos fazer uma alteração ou retornar apenas uma alteração em um dado especifico usamos id na rota. Como no EX2.
+
+Controller.ts -> Arquivo responsavel por receber os dados vindo do Services.ts e manipular com base na regra de negocios.
+
+Ex: Class UserController {
+	async create()
+	async list()
+	async update()
+}
+
+Obs: Para uma melhor organização usamos classes e filhos para organizar cada função. E como a regra de negocios vem do Service.ts que lida com o banco de dados, todas essas funções declaradas dentro de Class devem ser asyncronas.
+
+Service.ts -> Arquivo responsavel por gerenciar os dados vindo do front e definir como serão tratados (deletados, criados, listados etc...).
