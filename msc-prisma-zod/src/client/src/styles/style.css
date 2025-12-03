@@ -1,56 +1,55 @@
 * {
-    margin: 0;
-    padding: 0;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 body {
-    background-color: #eee;
+  background-color: #eee;
 }
 
 .container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 80dvh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80dvh;
 }
 
 h1 {
-    font-size: 26pt;
-    text-align: center;
+  font-size: 26pt;
+  text-align: center;
 }
 
 .fields {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    /* align-items: center; */
-    width: 500px;
-    height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 500px;
+  height: 500px;
 }
 
 input {
-    padding: 10px;
-    width: 80%;
-    margin: 5px 5px 5px 0px;
+  padding: 10px;
+  width: 80%;
+  margin: 5px 5px 5px 0px;
 }
 
 label {
-    font-size: 14pt;
-    text-align: left;
+  font-size: 14pt;
+  text-align: left;
 }
 
 button {
-    width: 85%;
-    margin-top: 15px;
-    padding: 10px;
-    border: none;
-    color: white;
-    font-size: 14pt;
-    background-color: rgb(54, 54, 255);
+  width: 85%;
+  margin-top: 15px;
+  padding: 10px;
+  border: none;
+  color: white;
+  font-size: 14pt;
+  background-color: rgb(54, 54, 255);
 }
 
 button:hover {
-    background-color: rgba(54, 54, 255, 0.791);
+  background-color: rgba(54, 54, 255, 0.791);
 }

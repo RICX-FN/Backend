@@ -10,7 +10,7 @@
     "start": "node dist/server.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Ricardo Bernardo",
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {
